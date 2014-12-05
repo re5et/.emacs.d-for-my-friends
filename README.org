@@ -1,7 +1,7 @@
 #+STARTUP: showeverything
 
 * Setup
-** Clone: https://github.com/re5et/.emacs.d-for-my-friends.git to your
+** Clone: https://github.com/re5et/.emacs.d-for-my-friends.git to your home directory
 
   #+BEGIN_SRC shell-script
     mv ~/.emacs.d ~/.emacs.d.backup
