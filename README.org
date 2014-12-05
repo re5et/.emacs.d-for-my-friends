@@ -10,3 +10,8 @@
 
 ** Start emacs
    you should be presented with this README and you can continue from there.
+
+** Max OSX stuff:
+* use alt as meta
+** Ctrl-H v (describe variable) mac-command-modifier RET
+** Use customize to set value as meta
