@@ -10,10 +10,11 @@
 (global-set-key (kbd "C-?") 'revert-buffer)
 (global-set-key (kbd "C-,") 'indent-buffer)
 (global-set-key (kbd "C-|") 'rotate-frame-window-buffers)
-(global-set-key (kbd "C-#") 'comment-region)
 (global-set-key (kbd "C-!") 'shell-command-on-dwim-replace)
 (global-set-key (kbd "C-<return>") 'embiggen-toggler)
 (global-set-key (kbd "C-<backspace>") 'backwards-kill)
+(global-set-key (kbd "C-<") 'winner-undo)
+(global-set-key (kbd "C->") 'winner-redo)
 
 (global-set-key (kbd "M-l") 'next-in-frame-window)
 (global-set-key (kbd "M-h") 'previous-in-frame-window)
@@ -30,7 +31,6 @@
 (global-set-key (kbd "M-N") 'md/duplicate-down)
 (global-set-key (kbd "M-|") 'toggle-window-split)
 (global-set-key (kbd "M-/") 'hippie-expand)
-(global-set-key (kbd "M-#") 'uncomment-region)
 (global-set-key (kbd "M-?") 'comint-dynamic-complete-filename)
 
 (global-set-key (kbd "M-i") nil) ;; to make room for spelling stuff
@@ -46,7 +46,6 @@
 (global-set-key (kbd "C-S-b") 'bury-buffer)
 (global-set-key (kbd "C-S-f") 'unbury-buffer)
 (global-set-key (kbd "C-S-SPC") 'exchange-point-and-mark)
-
 (global-set-key (kbd "C-S-s") 'isearch-symbol-at-point)
 (global-set-key (kbd "C-S-r") 'isearch-backward-symbol-at-point)
 (global-set-key (kbd "C-S-m") 'mc/mark-all-like-this-dwim)
@@ -55,7 +54,6 @@
 (global-set-key (kbd "M-j '") 'toggle-quote-type)
 (global-set-key (kbd "M-j j") 'newline-and-indent)
 (global-set-key (kbd "M-j J") 'bookmark-jump)
-(global-set-key (kbd "M-j f") 'flyspell-correct-word-before-point)
 (global-set-key (kbd "M-j k") 'copy-line)
 (global-set-key (kbd "M-j e") 'flymake-goto-next-error-and-show)
 (global-set-key (kbd "M-j f") 'simp-project-find-file)
@@ -73,8 +71,6 @@
 (global-set-key (kbd "M-j M-b") 'simp-project-with-bookmark-ibuffer)
 (global-set-key (kbd "M-j M-g") 'magit-status-from-bookmark)
 (global-set-key (kbd "M-j M-k") 'kill-whole-line)
-(global-set-key (kbd "M-j C-S-f") 'winner-redo)
-(global-set-key (kbd "M-j C-S-b") 'winner-undo)
 
 (global-set-key (kbd "C-x f") 'fill-region)
 (global-set-key (kbd "C-x C-d") 'dired-jump)
