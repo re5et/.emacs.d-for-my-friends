@@ -49,68 +49,67 @@
    have a .git folder at the top level.  You can get much fancier with
    project defenition, see here: https://github.com/re5et/simp
 
-*** M-j g   | magit status buffer
-*** M-j f   | fuzzy find file
-*** M-j s   | search project
-*** M-j S-s | search entire project
-*** M-j d   | project root dired (directory listing)
+| M-j g   | magit status buffer                    |
+| M-j f   | fuzzy find file                        |
+| M-j s   | search project                         |
+| M-j S-s | search entire project                  |
+| M-j d   | project root dired (directory listing) |
 
 ** Bookmark Prefixed Project Navigation
 
    To pick a project from a bookmark and then take a project
    navigation action, you hold down Meta for the second keystroke
 
-*** M-j M-g | magit status buffer
-*** M-j M-f | fuzzy find file
-*** M-j M-s | search project
-*** M-j M-d | project root dired (directory listing)
+| M-j M-g | magit status buffer                    |
+| M-j M-f | fuzzy find file                        |
+| M-j M-s | search project                         |
+| M-j M-d | project root dired (directory listing) |
 
 
 ** Frame and window movement
-*** M-l   | next-in-frame-window
-*** M-L   | next-multiframe-window
-*** M-h   | previous-in-frame-window
-*** M-H   | previous-multiframe-window
-*** C-S-, | Undo window configuration change
-*** C-S-. | Redo window configuration change
-*** C-S-\ | Rotate windows
-*** M-S-\ | Swap split orientation
-*** C-S-b | move back one in window history
-*** C-S-f | move forward one in window history
+| M-l   | next-in-frame-window               |
+| M-L   | next-multiframe-window             |
+| M-h   | previous-in-frame-window           |
+| M-H   | previous-multiframe-window         |
+| C-S-, | Undo window configuration change   |
+| C-S-. | Redo window configuration change   |
+| C-S-\ | Rotate windows                     |
+| M-S-\ | Swap split orientation             |
+| C-S-b | move back one in window history    |
+| C-S-f | move forward one in window history |
 
 ** Buffer niceities
-*** C-,     | indent entire buffer according to mode
-*** C-S-/   | revert buffer (to last save)
-*** M-j G   | git time machine for buffer file
-*** C-x C-k | kill focused buffer
+| C-,     | indent entire buffer according to mode |
+| C-S-/   | revert buffer (to last save)           |
+| M-j G   | git time machine for buffer file       |
+| C-x C-k | kill focused buffer                    |
 
 ** Editing niceities
-*** M-z       | delete from point up until characater
-*** M-o       | indent-and-open-newline
-*** C-o       | previous-indent-and-open-newline
-*** M-S-b     | backward to word
-*** M-S-f     | forward to word
-*** M-S-m     | expand region
-*** M-S-n     | duplicate current line down
-*** M-S-p     | duplicate current line up
-*** C-S-m     | multiple cursors "mark all like this"
-*** C-S-n     | move current line down
-*** C-S-p     | move current line up
-*** C-S-y     | insert from kill ring search
-*** C-S-s     | search forward for thing at point
-*** C-S-r     | search backward for thing at point
-*** C-S-space | exchange mark and point
-*** C-x f     | fill region (wrap region)
-*** C-x C-s   | overridden save that forces save each time
-*** M-j S-m   | rename buffer and file
-*** M-j k     | copy line
-*** M-j M-k   | kill whole line
+| M-z       | delete from point up until characater      |
+| M-o       | indent-and-open-newline                    |
+| C-o       | previous-indent-and-open-newline           |
+| M-S-b     | backward to word                           |
+| M-S-f     | forward to word                            |
+| M-S-m     | expand region                              |
+| M-S-n     | duplicate current line down                |
+| M-S-p     | duplicate current line up                  |
+| C-S-m     | multiple cursors "mark all like this"      |
+| C-S-n     | move current line down                     |
+| C-S-p     | move current line up                       |
+| C-S-y     | insert from kill ring search               |
+| C-S-s     | search forward for thing at point          |
+| C-S-r     | search backward for thing at point         |
+| C-S-space | exchange mark and point                    |
+| C-x f     | fill region (wrap region)                  |
+| C-x C-s   | overridden save that forces save each time |
+| M-j S-m   | rename buffer and file                     |
+| M-j k     | copy line                                  |
+| M-j M-k   | kill whole line                            |
 
 ** Jumping around
-
-*** M-j J   | bookmark-jump
-*** C-x C-b | ibuffer (instead of list buffers)
-*** C-x C-d | dired-jump (go to directory for file)
+| M-j J   | bookmark-jump                         |
+| C-x C-b | ibuffer (instead of list buffers)     |
+| C-x C-d | dired-jump (go to directory for file) |
 
 ** more
 
