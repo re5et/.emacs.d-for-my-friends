@@ -26,6 +26,12 @@
 (put 'narrow-to-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
 
+;; mac specific settings
+(when (eq system-type 'darwin)
+  (setq mac-option-modifier 'alt)
+  (setq mac-command-modifier 'meta)
+  (setq mac-pass-command-to-system nil))
+
 (load custom-file)
 
 (provide 'my-settings)
